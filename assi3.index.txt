@@ -1,0 +1,24 @@
+<html>
+<h1>CONTACT FORM</h1><b>
+<hr/>
+<body>
+<form>
+<label for="fname">first name</label><br>
+<input type="text" id="fname" name="fname"><br>
+<label for="lname">Last name</label><br>
+<input type="text" id="lname" name="lname"><br>
+<label for="Pn">Pin Code</label><br>
+<input type="numeric" id="pincode" maxlength="6"><br>
+<br/>
+<input type="radio" name="india" value="india">br>
+<label  for="india">india</label><br>
+<input type="radio" name="uk" value="uk"><br>
+<label for="uk">Uk</label><br>
+<label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+<br><br/>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
